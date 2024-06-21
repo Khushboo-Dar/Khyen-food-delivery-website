@@ -149,7 +149,7 @@ form button {
 }
 
 #cart {
-    display: none;
+    display: block; /* Changed from 'none' to 'block' */
     margin: 2rem 0;
 }
 
