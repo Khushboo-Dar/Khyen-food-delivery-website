@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.timetable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.time-slot {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
